@@ -55,3 +55,80 @@ header{
         width: 100%
     }
 }
+
+.video video{
+
+    @media(min-width: 578px){
+        display: none;
+    }
+}
+
+
+
+#flex{
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#heading{
+  text-align: center;
+  flex-grow: 1;
+}
+
+#left img{
+    margin-right: 15px;
+    
+}
+
+
+@media (min-width: 578px){
+    #flex #menuImg{
+        display: none;
+    }
+
+    
+}
+#shipping{
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    @media (max-width: 578px){
+        display: none;
+    }
+}
+
+#flex input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    @media(max-width: 578px){
+        display: none;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+footer{
+    text-align: right;
+    font-size: 0.8em;
+}
+
+
+#bag{
+    margin-right: 15px;
+    @media(max-width: 578px){
+        display: none;
+        margin-right: 0;
+   }
+}
+
+@media(min-width: 578px){
+    #left{
+        display: none;
+    }
+}
+
