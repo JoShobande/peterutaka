@@ -11,13 +11,22 @@
     background-size: contain;
     background-repeat: no-repeat;
 
-    @media(min-width: 576px){
+    @media only screen and (min-width: 1200px){
         height: 430px;
         background-attachment: fixed;
-        display: none
+        display: none;
+
+        .toggle{
+            display: none;
+        }
+
+        
+        
 
     }
 }
+
+
 
 // #video-div{
 //     display: none;
